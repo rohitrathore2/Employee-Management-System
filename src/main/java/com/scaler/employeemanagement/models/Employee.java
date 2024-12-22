@@ -49,6 +49,10 @@ public class Employee {
     private String phone;
     private String email;
 
+    // Add a no-args constructor
+    public Employee() {
+    }
+
     // Getters
     public Long getId() { return id; }
     public String getName() { return name; }
